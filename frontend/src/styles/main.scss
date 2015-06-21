@@ -1,0 +1,30 @@
+// @import "../../node_modules/material-ui-sass/material-ui";
+// @import "../../node_modules/material-ui-sass/material-ui/_html";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+
+body {
+  margin: 0;
+}
+
+//Your custom app styles
+.page {
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  h1 {
+    margin-bottom: 1em;
+  }
+}
+
+.node {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.link {
+  stroke: #777;
+  stroke-width: 2px;
+}
